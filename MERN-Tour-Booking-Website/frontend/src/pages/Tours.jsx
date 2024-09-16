@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import CommonSection from "../shared/CommonSection";
 
 import "../styles/tour.css";
-import TourCard from "./../shared/TourCard";
-import SearchBar from "./../shared/SearchBar";
-import Newsletter from "./../shared/Newsletter";
+import TourCard from "../shared/TourCard";
+import SearchBar from "../shared/SearchBar";
+import Newsletter from "../shared/Newsletter";
 import { Container, Row, Col } from "reactstrap";
 
 import useFetch from "../hooks/useFetch";

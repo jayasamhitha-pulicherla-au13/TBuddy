@@ -62,6 +62,41 @@ const SearchBar = () => {
             </div>
           </FormGroup>
 
+          <FormGroup className="d-flex gap-3 form__group form__group-last">
+            <span>
+              <i class="ri-group-line"></i>
+            </span>
+            <div>
+              <h6>Start Date</h6>
+              <input type="date" placeholder="0" ref={maxGroupSizeRef} />
+            </div>
+          </FormGroup>
+
+          <FormGroup className="d-flex gap-3 form__group form__group-last">
+            <span>
+              <i class="ri-group-line"></i>
+            </span>
+            <div>
+              <h6>Return Date</h6>
+              <input type="date" placeholder="0" ref={maxGroupSizeRef} />
+            </div>
+          </FormGroup>
+
+          <FormGroup className="d-flex gap-3 form__group form__group-last">
+            <span>
+              <i class="ri-group-line"></i>
+            </span>
+            <div>
+              <h6>class</h6>
+              <select ref={maxGroupSizeRef}>
+                <option value="none">None</option>
+                <option value="class1">Business</option>
+                <option value="class2">Premium Economy</option>
+                <option value="class3">Economy</option>
+              </select>
+            </div>
+          </FormGroup>
+
           <span className="search__icon" type="submit" onClick={searchHandler}>
             <i class="ri-search-line"></i>
           </span>

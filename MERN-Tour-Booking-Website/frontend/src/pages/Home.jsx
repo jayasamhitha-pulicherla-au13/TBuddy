@@ -54,7 +54,6 @@ const Home = () => {
                 <img src={heroImg02} alt="" />
               </div>
             </Col>
-
             <SearchBar />
           </Row>
         </Container>
